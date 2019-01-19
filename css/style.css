@@ -1,0 +1,174 @@
+/* Landing Page */
+#landingPage {
+    height: 100vh;
+    background-image: url(../img/services.jpg);
+    color: white;
+    /* align-items: flex-start; */
+    
+}
+
+/* Why-Card */
+#whyCard .vertical-align{
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+}
+
+#whyCard {
+    color: white;
+}
+
+#whyCard .quick{
+    background-image: url(../img/quick.jpeg); 
+}
+
+#whyCard .customer{
+    background-image: url(../img/customer.jpg);
+}
+
+#whyCard .transparency {
+    background-image: url(../img/transparency.jpg);
+}
+
+/* Three Steps */
+#threeSteps h4{
+
+    margin-top: 30px;   
+    
+}
+
+/* Crafted Loans */
+
+#craftedLoans .left-image{
+    background-image: url(../img/customised.jpeg);
+}
+
+#craftedLoans .right-content{
+    background-color: #2c6add;
+}
+
+/* Services Link */
+#servicesLink {
+    padding: 40px 10px 40px 10px; 
+}
+#servicesLink a{
+    color: black;
+    border: 1px solid black;
+    padding: 15px;
+}
+
+/* Contact */
+
+
+@media only screen and (max-width: 767px) {
+    /* For Mobile Devices */
+
+    #landingPage h2{
+        font-size: 1.7rem;
+    }
+    #landingPage h3{
+        font-size: 1.3rem;
+    }
+
+    h1{
+        font-size: 1.8rem;
+    }
+
+    /* Why Card */
+    #whyCard .why-content{
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    /* Three Steps */
+    #threeSteps{
+        padding: 40px 10px 40px 10px;
+    }
+
+    #craftedLoans{
+        /* min-height: 110vh; */
+    }
+    #craftedLoans .left-image{
+        height: 30vh;
+    }
+    #craftedLoans .right-content{
+        padding: 60px 10px 60px 10px;
+    }
+
+    /* services link */
+    #servicesLink .section-heading .break{
+        display: block;
+        padding: 10px;
+    }
+    #servicesLink .section-heading{
+        font-size: 1.5rem;
+        margin-bottom: 30px;
+    }
+
+    #contactUs{
+        padding-top: 100px 10px;
+    }
+    #whyCard .why-content{
+        padding: 60px 10px;
+    }
+
+    
+}
+
+@media only screen and (min-width: 768px) {
+    /* For Tablets and PCs */
+    /* Landing Page */
+    #landingPage{
+        padding-left: 80px;
+        
+    }
+    #landingPage h2 {
+        font-size: 3rem;
+    }
+    #landingPage h3{
+        font-size: 2rem;
+    }
+    /* Why Card */
+    #whyCard .why-content{
+        min-height: 40vh;
+    }
+    #whyCard .why-content{
+        padding: 30px;
+    }
+    /* Three Steps */
+    #threeSteps .section-heading{
+        padding: 40px;
+    }
+    #threeSteps .section-body{
+        padding: 40px;
+    }
+    
+    /* Crafted Loans */
+    #craftedLoans .section-body{
+        height: 50vh;
+    }
+    #craftedLoans .section-content {
+        height: 100%;
+        padding: 30px;
+    }
+
+    /* Services Link */
+    #servicesLink{
+        padding: 50px;
+    }
+    #servicesLink h1{
+        margin-bottom: 50px;
+    }
+
+    /* ContactUs */
+    #contactUs .section-body{
+        width: 40%;
+    }
+    
+    /* Footer */
+    #footer{
+        background-color: black;
+        color: white;
+        padding: 20px;
+    }
+}
