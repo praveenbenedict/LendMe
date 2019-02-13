@@ -1,11 +1,46 @@
 /* Landing Page */
-#landingPage {
-    height: 100vh;
-    background-image: url(../img/services.jpg);
-    color: white;
-    /* align-items: flex-start; */
+#landing {
     
+    /* height: 100vh; */
+    /* background-image: url(../img/services.jpg); */
+    /* color: white; */
+    /* align-items: flex-start; */    
 }
+
+#landing h2{
+    font-size:2.5rem;
+}
+
+#landing a {
+    color: black;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.carousel-item {
+    height: 100vh;
+    min-height: 300px;
+    background: no-repeat center center scroll;
+    background-size: cover;
+    padding-top: 20%;
+  }
+
+
+  .caro1{
+    background-image: url(./../img/caro3.jpg);
+    /* display: flex!important; */
+  }
+  .caro2{
+    background-image: url(./../img/caro2.jpg);
+ 
+  }
+  .caro3{
+    background-image: url(./../img/caro1.jpg);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25%;
+  }
 
 /* Why-Card */
 #whyCard .vertical-align{
@@ -15,11 +50,11 @@
 }
 
 #whyCard {
-    color: white;
+    color: black;
 }
 
 #whyCard .quick{
-    background-image: url(../img/quick.jpeg); 
+    background-image: url(../img/quick1.jpg); 
 }
 
 #whyCard .customer{
@@ -27,7 +62,7 @@
 }
 
 #whyCard .transparency {
-    background-image: url(../img/transparency.jpg);
+    background-image: url(../img/trans.jpg);
 }
 
 /* Three Steps */
